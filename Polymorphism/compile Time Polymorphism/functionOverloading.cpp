@@ -10,8 +10,8 @@ void show(double num) {
 }
 
 int main() {
-    show(5);     
-    show(5.5);   
+    show(5);      // Calls the int version
+    show(5.5);    // Calls the double version
 
     return 0;
 }
